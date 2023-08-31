@@ -1,0 +1,17 @@
+# 应用名称
+spring:
+  application:
+    name: demo
+  elasticsearch:
+    uris:
+      - http://192.168.161.11:9200
+      - http://192.168.161.12:9200
+      - http://192.168.161.13:9200
+# 应用服务 WEB 访问端口
+server:
+  port: 8077
+
+
+# 正常 1 超时 2 不通过 3 停机 4
+status: 1
+

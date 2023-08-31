@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<BJCAROOT>
+  <BJCALib/>
+  <Device>
+    <BJSOFT>
+      <DevName>BJCASOFT</DevName>
+      <provider>BJCA Soft</provider>
+      <privateDll/>
+    </BJSOFT>
+    <BJCSP0001>
+      <DevName>BJCACSP</DevName>
+      <provider>BJCA Soft RSA Full Cryptographic Provider v1.0</provider>
+      <privateDll/>
+    </BJCSP0001>
+    <BJCSP0002>
+      <DevName>明华</DevName>
+      <provider>M&amp;W eKey XCSP</provider>
+      <privateDll>BjcaKey_MW.dll</privateDll>
+    </BJCSP0002>
+    <BJCSP0003>
+      <DevName>飞天epass3000</DevName>
+      <provider>EnterSafe CSP (ePass3000) v1.0 for BJCA</provider>
+      <privateDll>BjcaKey_FT3k.dll</privateDll>
+    </BJCSP0003>
+    <BJCSP0004>
+      <DevName>飞天epass2000</DevName>
+      <provider>EnterSafe CSP (ePass2000-FT11) v1.0 for BJCA</provider>
+      <privateDll>BjcaKey_FT11.dll</privateDll>
+    </BJCSP0004>
+    <BJCSP0005>
+      <DevName>天地融</DevName>
+      <provider>Tendyron OnKey CSP BJCA v1.0</provider>
+      <privateDll>BjcaKey_tdr.dll</privateDll>
+    </BJCSP0005>
+    <BJCSP0009>
+      <DevName>海泰CSP</DevName>
+      <provider>Haitai Cryptographic Service Provider</provider>
+      <privateDll>BjcaKey_ht.dll</privateDll>
+    </BJCSP0009>
+  </Device>
+  <Trust>
+    <VerifyType>1</VerifyType>
+    <CA0A01>
+      <CAName>BJCA UCA</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0A01>
+    <CA0B01>
+      <CAName>BeiJing GCA</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0B01>
+    <CA0B02>
+      <CAName>BJCA</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0B02>
+    <CA0C01>
+      <CAName>Public Trust CA-1</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0C01>
+    <CA0C02>
+      <CAName>Public Trust CA-2</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0C02>
+    <CA0E01>
+      <CAName>UTrust HACA</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0E01>
+    <CA0E02>
+      <CAName>UTrust SCCA</CAName>
+      <uniqIdOid>2.16.840.1.113732.2</uniqIdOid>
+    </CA0E02>
+  </Trust>
+  <Cert>
+
+  </Cert>
+</BJCAROOT>
